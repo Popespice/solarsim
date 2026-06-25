@@ -1,6 +1,13 @@
 # ============================================================
 # Unity generated folders & files
 # ============================================================
+.utmp/
+mono_crash.*
+*.blend1
+*.blend1.meta
+*.log
+InitTestScene*.unity*
+[Aa]ssets/Unity.VisualScripting.Generated/
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
