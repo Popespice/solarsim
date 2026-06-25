@@ -1,0 +1,56 @@
+# ============================================================
+# solarsim .gitattributes — Unity + Git LFS
+# ============================================================
+
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# ---- Source / text ----
+*.cs              text diff=csharp
+*.cginc           text
+*.shader          text
+*.hlsl            text
+*.compute         text
+*.uxml            text
+*.uss             text
+*.json            text
+*.md              text
+*.txt             text
+*.xml             text
+*.yml             text
+*.yaml            text
+
+# ---- Unity YAML assets (text; merge with UnityYAMLMerge when configured) ----
+*.meta            text merge=unityyamlmerge eol=lf
+*.unity           text merge=unityyamlmerge eol=lf
+*.asset           text merge=unityyamlmerge eol=lf
+*.prefab          text merge=unityyamlmerge eol=lf
+*.mat             text merge=unityyamlmerge eol=lf
+*.anim            text merge=unityyamlmerge eol=lf
+*.controller      text merge=unityyamlmerge eol=lf
+*.physicMaterial  text merge=unityyamlmerge eol=lf
+*.shadergraph     text
+*.shadersubgraph  text
+*.vfx             text
+
+# ---- Git LFS: binary assets ----
+*.png    filter=lfs diff=lfs merge=lfs -text
+*.jpg    filter=lfs diff=lfs merge=lfs -text
+*.jpeg   filter=lfs diff=lfs merge=lfs -text
+*.gif    filter=lfs diff=lfs merge=lfs -text
+*.tga    filter=lfs diff=lfs merge=lfs -text
+*.tif    filter=lfs diff=lfs merge=lfs -text
+*.tiff   filter=lfs diff=lfs merge=lfs -text
+*.psd    filter=lfs diff=lfs merge=lfs -text
+*.exr    filter=lfs diff=lfs merge=lfs -text
+*.hdr    filter=lfs diff=lfs merge=lfs -text
+*.cubemap filter=lfs diff=lfs merge=lfs -text
+*.fbx    filter=lfs diff=lfs merge=lfs -text
+*.obj    filter=lfs diff=lfs merge=lfs -text
+*.blend  filter=lfs diff=lfs merge=lfs -text
+*.wav    filter=lfs diff=lfs merge=lfs -text
+*.mp3    filter=lfs diff=lfs merge=lfs -text
+*.ogg    filter=lfs diff=lfs merge=lfs -text
+*.mp4    filter=lfs diff=lfs merge=lfs -text
+*.ttf    filter=lfs diff=lfs merge=lfs -text
+*.otf    filter=lfs diff=lfs merge=lfs -text
