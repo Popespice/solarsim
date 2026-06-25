@@ -41,7 +41,7 @@ namespace SolarSim.Core
 
             var rot = Quaternion.Euler(_pitch, _yaw, 0f);
             transform.SetPositionAndRotation(
-                -rot * Vector3.forward * _distance,
+                rot * Vector3.back * _distance,
                 rot
             );
         }

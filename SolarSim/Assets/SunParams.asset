@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f31068358b25f49bed5aa6037f92b8, type: 3}
+  m_Name: SunParams
+  m_EditorClassIdentifier: 
+  timeScale: 1
+  paused: 0
+  granulationFrequency: 40
+  supergranulationFrequency: 6
+  fbmOctaves: 4
+  domainWarpStrength: 4
+  flowSpeed: 0.3
+  hotColor: {r: 1, g: 0.9, b: 0.6, a: 1}
+  coolColor: {r: 0.8, g: 0.15, b: 0.02, a: 1}
+  emissiveIntensity: 3
+  limbDarkeningA: 0.93
+  limbDarkeningB: -0.23
+  rimGlowIntensity: 1.5
+  sunspotThreshold: 0.65
+  activityLevel: 0.5
+  prominenceCount: 5
+  prominenceHeight: 1.2
+  curlBlend: 0.2
+  bloomThreshold: 0.9
+  bloomIntensity: 0.5
+  exposure: 1
+  wavelengthPreset: 0
